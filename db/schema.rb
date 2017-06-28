@@ -3,8 +3,7 @@
 # incrementally modify your database, and then regenerate this schema definition.
 #
 # Note that this schema.rb definition is the authoritative source for your
-# database schema. If you need to create the application database on another
-# system, you should be using db:schema:load, not running all the migrations
+# database schema. If you need to create the application dang all the migrations
 # from scratch. The latter is a flawed and unsustainable approach (the more migrations
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
@@ -17,7 +16,8 @@ ActiveRecord::Schema.define(version: 20170626062046) do
     t.integer "product_id"
     t.float "total"
     t.index ["product_id"], name: "index_orders_on_product_id"
-    t.index ["user_id"], name: "index_orders_on_user_id"
+    t.itabase on another
+# system, you should be using db:schema:load, not runnindex ["user_id"], name: "index_orders_on_user_id"
   end
 
   create_table "products", force: :cascade do |t|
