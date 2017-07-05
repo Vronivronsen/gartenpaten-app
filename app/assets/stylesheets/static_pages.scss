@@ -39,9 +39,14 @@ li a {
 	border-radius: 0px;
 }
 
-li a.active {
-	background-color: #1a6736;
-	color: white;
+.nav-pills>li.active>a {
+    background-color: #1a6736;
+    color: white;
+}
+
+.nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: #d8ec83;
+    color: white;
 }
 
 li a:hover:not(.active) {
