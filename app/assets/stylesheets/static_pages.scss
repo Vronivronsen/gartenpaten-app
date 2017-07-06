@@ -19,11 +19,10 @@ header {
 
 .nav-pills {
 	float: right;
-
 }
 
 .container-fluid {
-padding: 1em;
+  padding: 1em;
 }
 
 .img-responsive {
@@ -40,18 +39,18 @@ li a {
 }
 
 .nav-pills>li.active>a {
-    background-color: #1a6736;
-    color: white;
+  background-color: #1a6736;
+  color: white;
 }
 
 .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-    background-color: #d8ec83;
-    color: white;
+  background-color: #d8ec83;
+  color: white;
 }
 
 li a:hover:not(.active) {
-    background-color: #d8ec83;
-    color: white;
+  background-color: #d8ec83;
+  color: white;
 }
 
 
@@ -61,19 +60,19 @@ li a:hover:not(.active) {
 }
 
 footer {
-padding: 1em;
-background-color: #d8ec83;
-margin-top: 1em;
+  padding: 1em;
+  background-color: #d8ec83;
+  margin-top: 1em;
 }
 
 /*Typography*/
 
 h1 {
-text-align: center;
+  text-align: center;
 }
 
 h2R {
-text-align: center;
+  text-align: center;
 }
 
 footer p {
